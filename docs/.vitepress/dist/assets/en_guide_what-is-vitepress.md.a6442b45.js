@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as s}from"./app.799e2093.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"en/guide/what-is-vitepress.md","lastUpdated":null}'),a={name:"en/guide/what-is-vitepress.md"};function r(n,o,i,c,p,d){return s(),t("div")}const m=e(a,[["render",r]]);export{l as __pageData,m as default};
