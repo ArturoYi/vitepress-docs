@@ -6,7 +6,8 @@ export const getChineseThemeConfig = ()=> {
       {
         text: "💻前端",
         items: [
-          { text: '🟩 Vue', link: '/guide/web/vue/Vue.md' }
+          { text: '🟩 Vue', link: '/guide/web/vue/Vue.md' },
+          { text: '🟦 TS', link: '/guide/web/ts/01.md' }
         ]
       },
       {
@@ -29,10 +30,34 @@ export const getChineseThemeConfig = ()=> {
           { text: 'options-1', link: '/' },
           { text: 'options-2', link: 'http://www.baidu.com' }
         ]
+      },
+      {
+        text: "📒笔记",
+        items: [
+          { text: '🟩 Vue面试', link: '/guide/note/interview/vue/01.md' },
+          { text: 'options-2', link: 'http://www.baidu.com' }
+        ]
       }
     ],
     sidebar: {
-      "/guide/": [
+      "/guide/web/ts": [
+        {
+          text: "🟦 TS 介绍",
+          items: [
+            { text: "🟦 TS 安装", link: "/guide/web/ts/01.md" },
+            { text: "🟦 TS 笔记", link: "/guide/web/ts/02.md" },
+          ],
+          collapsible: true,
+        },
+        {
+          text: "🟦 TS 基础",
+          items: [
+            { text: "🟦 TS 基本类型", link: "/guide/web/ts/03.md" },
+          ],
+          collapsible: true,
+        },
+      ],
+      "/guide/web/vue": [
         {
           text: "🟩 Vue",
           items: [
