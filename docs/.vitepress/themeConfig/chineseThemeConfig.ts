@@ -53,6 +53,8 @@ export const getChineseThemeConfig = ()=> {
           text: "🟦 TS 基础",
           items: [
             { text: "🟦 TS 基本类型", link: "/guide/web/ts/03.md" },
+            { text: "🟦 TS 函數", link: "/guide/web/ts/04.md" },
+            { text: "🟦 TS 斷言", link: "/guide/web/ts/05.md" },
           ],
           collapsible: true,
         },
