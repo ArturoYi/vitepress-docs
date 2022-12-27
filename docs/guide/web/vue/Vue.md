@@ -1,3 +1,7 @@
+<script setup>
+import { coloricon } from "../../../.vitepress/compoment/navbar/coloricon.ts"
+coloricon();
+</script>
 # 🟩 Vue 基础
 
 ::: tip Vue 基础知识学习推荐
