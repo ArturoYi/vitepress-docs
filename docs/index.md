@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: 鸭
+  name: 12
   text: 💻VitePress趣玩系列
   tagline: Lorem ipsum...
   image:

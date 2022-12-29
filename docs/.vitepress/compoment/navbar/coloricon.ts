@@ -12,7 +12,7 @@ export const coloricon = () => {
         if (as[j].innerHTML.indexOf("t-s") !== -1) {
           as[
             j
-          ].innerHTML = `<div style="display:flex;"><img style="margin-right:8px;" src="/icon/typescript.svg" alt="null" p-id="1416">TypeScript<div>`;
+          ].innerHTML = `<div style="display:flex;"><img style="margin-right:8px;" src="/icon/typescript.svg" alt="null" p-id="1416">TS<div>`;
         }
         if (as[j].innerHTML.indexOf("d-a-r-t") !== -1) {
           as[
