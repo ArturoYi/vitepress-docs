@@ -8,7 +8,7 @@ export default {
     //脚本
     let url = "";
     setInterval(() => {
-      if (url != window.location.href) {
+      if (window.location.href && url != window.location.href) {
         coloricon();
         url = window.location.href;
       }
