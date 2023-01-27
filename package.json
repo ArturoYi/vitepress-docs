@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-    "scripts": {
-      "dev": "vitepress dev docs",
-      "build": "vitepress build docs",
-      "serve": "vitepress serve docs"
-    },
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -15,11 +15,14 @@
     "vitepress": "1.0.0-alpha.40",
     "vue": "^3.2.45"
   },
-  "pnpm":{
-    "peerDependencyRules":{
-      "ignoreMissung":[
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissung": [
         "@algolia/client-search"
       ]
     }
+  },
+  "dependencies": {
+    "buffer": "^6.0.3"
   }
 }
