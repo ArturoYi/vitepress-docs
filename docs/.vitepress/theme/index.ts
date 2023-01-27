@@ -6,11 +6,9 @@ export default {
   ...Theme,
   enhanceApp({ app }) {
     //脚本
-    coloricon();
     let url = "";
     setInterval(() => {
       if (url != window.location.href) {
-        console.log("执行定时任务");
         coloricon();
         url = window.location.href;
       }

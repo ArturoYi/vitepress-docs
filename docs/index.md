@@ -27,15 +27,3 @@ features:
     title: Simple and minimal, always
     details: Lorem ipsum...
 ---
-
-<script setup>
-// import { coloricon } from "./.vitepress/compoment/navbar/coloricon.ts"
-// coloricon();
-// let url = "";
-// setInterval(()=>{
-//   if(url != window.location.href){
-//     coloricon();
-//     url = window.location.href;
-//   }
-// },1000);
-</script>
