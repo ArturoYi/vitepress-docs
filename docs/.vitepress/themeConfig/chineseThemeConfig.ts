@@ -10,36 +10,38 @@ export const getChineseThemeConfig = () => {
           { text: "t-s", link: "/guide/web/ts/01.md" },
           { text: "d-a-r-t", link: "/guide/web/dart/01.md" },
           { text: "f-l-u-t-t-e-r", link: "/guide/web/flutter/01.md" },
+          { text: "h-t-m-l", link: "/guide/web/html/01.md" },
+          { text: "c-s-s", link: "/guide/web/css/01.md" },
         ],
       },
-      {
-        text: "🖥️后端",
-        items: [
-          { text: "options-1", link: "/" },
-          { text: "options-2", link: "http://www.baidu.com" },
-        ],
-      },
-      {
-        text: "💿数据库",
-        items: [
-          { text: "options-1", link: "/" },
-          { text: "options-2", link: "http://www.baidu.com" },
-        ],
-      },
-      {
-        text: "🧑‍💻运维",
-        items: [
-          { text: "options-1", link: "/" },
-          { text: "options-2", link: "http://www.baidu.com" },
-        ],
-      },
-      {
-        text: "📒笔记",
-        items: [
-          { text: "🟩 Vue面试", link: "/guide/note/interview/vue/01.md" },
-          { text: "options-2", link: "http://www.baidu.com" },
-        ],
-      },
+      // {
+      //   text: "🖥️后端",
+      //   items: [
+      //     // { text: "options-1", link: "/" },
+      //     // { text: "options-2", link: "http://www.baidu.com" },
+      //   ],
+      // },
+      // {
+      //   text: "💿数据库",
+      //   items: [
+      //     // { text: "options-1", link: "/" },
+      //     // { text: "options-2", link: "http://www.baidu.com" },
+      //   ],
+      // },
+      // {
+      //   text: "🧑‍💻运维",
+      //   items: [
+      //     // { text: "options-1", link: "/" },
+      //     // { text: "options-2", link: "http://www.baidu.com" },
+      //   ],
+      // },
+      // {
+      //   text: "📒笔记",
+      //   items: [
+      //     // { text: "🟩 Vue面试", link: "/guide/note/interview/vue/01.md" },
+      //     // { text: "options-2", link: "http://www.baidu.com" },
+      //   ],
+      // },
     ],
     sidebar: {
       "/guide/web/ts": [
@@ -65,13 +67,7 @@ export const getChineseThemeConfig = () => {
         {
           text: "🟩 Vue",
           items: [{ text: "🟩 Vue介绍", link: "/guide/web/vue/Vue.md" }],
-          // collapsible: true,
         },
-        // {
-        //   text: "🟩 Vue",
-        //   items: [{ text: "🟩 Vue介绍", link: "/guide/web/vue/Vue.md" }],
-        //   // collapsible: true,
-        // },
       ],
       //
       "/guide/web/dart": [
@@ -89,6 +85,18 @@ export const getChineseThemeConfig = () => {
         {
           text: "🟦 Flutter应用",
           items: [{ text: "🟦 计数器应用示例", link: "/guide/web/flutter/05.md" }],
+        },
+      ],
+      "/guide/web/html": [
+        {
+          text: "🟧 html基础",
+          items: [{ text: "🟧 HTML概述", link: "/guide/web/html/01.md" }],
+        },
+      ],
+      "/guide/web/css": [
+        {
+          text: "🟦 CSS基础",
+          items: [{ text: "🟦 CSS概述", link: "/guide/web/css/01.md" }],
         },
       ],
     },

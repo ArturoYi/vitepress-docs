@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: 12
+  name: www
   text: 💻VitePress趣玩系列
   tagline: Lorem ipsum...
   image:
@@ -29,6 +29,13 @@ features:
 ---
 
 <script setup>
-import { coloricon } from "./.vitepress/compoment/navbar/coloricon.ts"
-coloricon();
+// import { coloricon } from "./.vitepress/compoment/navbar/coloricon.ts"
+// coloricon();
+// let url = "";
+// setInterval(()=>{
+//   if(url != window.location.href){
+//     coloricon();
+//     url = window.location.href;
+//   }
+// },1000);
 </script>

@@ -24,6 +24,16 @@ export const coloricon = () => {
             j
           ].innerHTML = `<div style="display:flex;"><img style="margin-right:8px;" src="/icon/flutter.svg" alt="null" p-id="1416">Flutter<div>`;
         }
+        if (as[j].innerHTML.indexOf("h-t-m-l") !== -1) {
+          as[
+            j
+          ].innerHTML = `<div style="display:flex;"><img style="margin-right:8px;" src="/icon/HTML.svg" alt="null" p-id="1416">HTML<div>`;
+        }
+        if (as[j].innerHTML.indexOf("c-s-s") !== -1) {
+          as[
+            j
+          ].innerHTML = `<div style="display:flex;"><img style="margin-right:8px;" src="/icon/css.svg" alt="null" p-id="1416">CSS<div>`;
+        }
       }
     }
   }, 0);
