@@ -1,4 +1,4 @@
-export const coloricon = async () => {
+export const coloricon = () => {
   setTimeout(() => {
     const items = document.getElementsByClassName("items");
     if (items) {

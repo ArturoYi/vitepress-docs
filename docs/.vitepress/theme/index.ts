@@ -16,7 +16,12 @@ export default {
     setInterval(() => {
       (function (window: any) {
         if (typeof (window as any) !== "undefined") {
-          if (url != window.location.href) {
+          if (
+            window &&
+            window.location &&
+            window.location.href &&
+            url != window.location.href
+          ) {
             coloricon();
             url = window.location.href;
           }
