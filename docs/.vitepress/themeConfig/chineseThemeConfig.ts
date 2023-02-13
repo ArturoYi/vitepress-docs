@@ -6,7 +6,7 @@ export const getChineseThemeConfig = () => {
       {
         text: "💻前端",
         items: [
-          { text: "v-u-e", link: "/guide/web/vue/Vue.md" },
+          { text: "v-u-e", link: "/guide/web/vue/01.md" },
           { text: "t-s", link: "/guide/web/ts/01.md" },
           { text: "d-a-r-t", link: "/guide/web/dart/01.md" },
           { text: "f-l-u-t-t-e-r", link: "/guide/web/flutter/01.md" },
@@ -65,8 +65,16 @@ export const getChineseThemeConfig = () => {
       ],
       "/guide/web/vue": [
         {
-          text: "🟩 Vue",
-          items: [{ text: "🟩 Vue介绍", link: "/guide/web/vue/Vue.md" }],
+          text: "🟩 Vue2",
+          items: [
+            { text: "🟩 Vue2開篇介绍", link: "/guide/web/vue/01.md" },
+          ],
+        },
+        {
+          text: "🟩 Vue2 源碼",
+          items: [
+            { text: "🟩 Vue構造函數", link: "/guide/web/vue/02.md" },
+          ],
         },
       ],
       //
@@ -80,11 +88,15 @@ export const getChineseThemeConfig = () => {
       "/guide/web/flutter": [
         {
           text: "🟦 Flutter起步",
-          items: [{ text: "🟦 移动开发技术", link: "/guide/web/flutter/01.md" }],
+          items: [
+            { text: "🟦 移动开发技术", link: "/guide/web/flutter/01.md" },
+          ],
         },
         {
           text: "🟦 Flutter应用",
-          items: [{ text: "🟦 计数器应用示例", link: "/guide/web/flutter/05.md" }],
+          items: [
+            { text: "🟦 计数器应用示例", link: "/guide/web/flutter/05.md" },
+          ],
         },
       ],
       "/guide/web/html": [

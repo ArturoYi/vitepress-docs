@@ -1,2 +1,3 @@
 node_modules
 docs/.vitepress/dist
+docs/.vitepress/guide/web/vue/code/core/node_modules
