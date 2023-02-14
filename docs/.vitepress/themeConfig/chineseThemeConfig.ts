@@ -12,6 +12,7 @@ export const getChineseThemeConfig = () => {
           { text: "f-l-u-t-t-e-r", link: "/guide/web/flutter/01.md" },
           { text: "h-t-m-l", link: "/guide/web/html/01.md" },
           { text: "c-s-s", link: "/guide/web/css/01.md" },
+          { text: "w-e-b-p-a-c-k", link: "/guide/web/webpack/01.md" },
         ],
       },
       // {
@@ -109,6 +110,12 @@ export const getChineseThemeConfig = () => {
         {
           text: "🟦 CSS基础",
           items: [{ text: "🟦 CSS概述", link: "/guide/web/css/01.md" }],
+        },
+      ],
+      "/guide/web/webpack": [
+        {
+          text: "🟦 webpack",
+          items: [{ text: "🟦 快速入門", link: "/guide/web/webpack/01.md" }],
         },
       ],
     },
