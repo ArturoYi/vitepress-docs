@@ -15,6 +15,10 @@ export const getChineseThemeConfig = () => {
           { text: "w-e-b-p-a-c-k", link: "/guide/web/webpack/01.md" },
         ],
       },
+      {
+        text: "🖥️后端",
+        items: [{ text: "組件庫", link: "/guide/project/iuui/01.md" }],
+      },
       // {
       //   text: "🖥️后端",
       //   items: [
@@ -67,15 +71,11 @@ export const getChineseThemeConfig = () => {
       "/guide/web/vue": [
         {
           text: "🟩 Vue2",
-          items: [
-            { text: "🟩 Vue2開篇介绍", link: "/guide/web/vue/01.md" },
-          ],
+          items: [{ text: "🟩 Vue2開篇介绍", link: "/guide/web/vue/01.md" }],
         },
         {
           text: "🟩 Vue2 源碼",
-          items: [
-            { text: "🟩 Vue構造函數", link: "/guide/web/vue/02.md" },
-          ],
+          items: [{ text: "🟩 Vue構造函數", link: "/guide/web/vue/02.md" }],
         },
       ],
       //
@@ -116,6 +116,12 @@ export const getChineseThemeConfig = () => {
         {
           text: "🟦 webpack",
           items: [{ text: "🟦 快速入門", link: "/guide/web/webpack/01.md" }],
+        },
+      ],
+      "/guide/project/iuui": [
+        {
+          text: "🟦 iuui",
+          items: [{ text: "🟦 開篇", link: "/guide/project/iuui/01.md" }],
         },
       ],
     },
