@@ -36,13 +36,13 @@ export const getChineseThemeConfig = () => {
       //     // { text: "options-2", link: "http://www.baidu.com" },
       //   ],
       // },
-      // {
-      //   text: "📒笔记",
-      //   items: [
-      //     // { text: "🟩 Vue面试", link: "/guide/note/interview/vue/01.md" },
-      //     // { text: "options-2", link: "http://www.baidu.com" },
-      //   ],
-      // },
+      {
+        text: "📒笔记",
+        items: [
+          { text: "g-i-t", link: "/guide/note/git/01.md" },
+          { text: "l-i-n-u-x", link: "/guide/note/linux/01.md" },
+        ],
+      },
     ],
     sidebar: {
       "/guide/web/ts": [

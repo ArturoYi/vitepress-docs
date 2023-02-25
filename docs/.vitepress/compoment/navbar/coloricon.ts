@@ -50,6 +50,16 @@ export const coloricon = () => {
                   j
                 ].innerHTML = `<div style="display:flex;"><img style="margin-right:8px;" src="/icon/webpack.svg" alt="null" p-id="1416">webpack<div>`;
               }
+              if (as[j].innerHTML.indexOf("g-i-t") !== -1) {
+                as[
+                  j
+                ].innerHTML = `<div style="display:flex;"><img style="margin-right:8px;" src="/icon/git.svg" alt="null" p-id="1416">git<div>`;
+              }
+              if (as[j].innerHTML.indexOf("l-i-n-u-x") !== -1) {
+                as[
+                  j
+                ].innerHTML = `<div style="display:flex;"><img style="margin-right:8px;" src="/icon/linux.svg" alt="null" p-id="1416">linux<div>`;
+              }
             }
           }
         }
