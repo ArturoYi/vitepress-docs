@@ -41,6 +41,7 @@ export const getChineseThemeConfig = () => {
         items: [
           { text: "g-i-t", link: "/guide/note/git/01.md" },
           { text: "l-i-n-u-x", link: "/guide/note/linux/01.md" },
+          { text: "🟦 iuui", link: "/guide/note/iuui/01.md" },
         ],
       },
     ],
@@ -116,6 +117,12 @@ export const getChineseThemeConfig = () => {
         {
           text: "🟦 webpack",
           items: [{ text: "🟦 快速入門", link: "/guide/web/webpack/01.md" }],
+        },
+      ],
+      "/guide/note/iuui": [
+        {
+          text: "🟦 开篇",
+          items: [{ text: "🟦 开篇", link: "/guide/note/iuui/01.md" }],
         },
       ],
     },

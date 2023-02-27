@@ -4,7 +4,6 @@ import { onMounted } from "vue";
 import { coloricon } from "../compoment/navbar/coloricon";
 export default {
   ...DefaultTheme,
-  // Nav: () => {},
   enhanceApp({ ctx }) {
   },
   setup() {
