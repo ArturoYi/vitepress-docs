@@ -40,13 +40,14 @@ export const getChineseThemeConfig = () => {
       //     // { text: "options-2", link: "http://www.baidu.com" },
       //   ],
       // },
-      // {
-      //   text: "📒笔记",
-      //   items: [
-      //     // { text: "🟩 Vue面试", link: "/guide/note/interview/vue/01.md" },
-      //     // { text: "options-2", link: "http://www.baidu.com" },
-      //   ],
-      // },
+      {
+        text: "📒笔记",
+        items: [
+          { text: "g-i-t", link: "/guide/note/git/01.md" },
+          { text: "l-i-n-u-x", link: "/guide/note/linux/01.md" },
+          { text: "🟦 iuui", link: "/guide/note/iuui/01.md" },
+        ],
+      },
     ],
     sidebar: {
       "/guide/web/ts": [
@@ -118,10 +119,10 @@ export const getChineseThemeConfig = () => {
           items: [{ text: "🟦 快速入門", link: "/guide/web/webpack/01.md" }],
         },
       ],
-      "/guide/project/iuui": [
+      "/guide/note/iuui": [
         {
-          text: "🟦 iuui",
-          items: [{ text: "🟦 開篇", link: "/guide/project/iuui/01.md" }],
+          text: "🟦 开篇",
+          items: [{ text: "🟦 开篇", link: "/guide/note/iuui/01.md" }],
         },
       ],
     },

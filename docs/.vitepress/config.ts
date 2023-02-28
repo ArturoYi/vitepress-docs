@@ -18,7 +18,7 @@ export default {
     outline: [2, 6],
     // 社交链接
     socialLinks: [
-      { icon: "github", link: "https://github.com/gumingWu/vitepress-fun" },
+      { icon: "github", link: "https://github.com/540765/vitepress-docs" },
     ],
     // 页脚
     footer: {
