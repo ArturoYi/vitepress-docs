@@ -98,6 +98,7 @@ export const getChineseThemeConfig = () => {
           text: "🟦 Flutter应用",
           items: [
             { text: "🟦 计数器应用示例", link: "/guide/web/flutter/05.md" },
+            { text: "🟦 Widget", link: "/guide/web/flutter/06.md" },
           ],
         },
       ],
