@@ -122,8 +122,11 @@ export const getChineseThemeConfig = () => {
       ],
       "/guide/note/iuui": [
         {
-          text: "🟦 开篇",
-          items: [{ text: "🟦 开篇", link: "/guide/note/iuui/01.md" }],
+          text: "🟦 啰嗦一下",
+          items: [
+            { text: "🟦 思考", link: "/guide/note/iuui/01.md" },
+            { text: "🟦 package.json", link: "/guide/note/iuui/02.md" },
+          ],
         },
       ],
     },
