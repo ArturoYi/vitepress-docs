@@ -12,6 +12,7 @@ export const getChineseThemeConfig = () => {
           { text: "f-l-u-t-t-e-r", link: "/guide/web/flutter/01.md" },
           { text: "h-t-m-l", link: "/guide/web/html/01.md" },
           { text: "c-s-s", link: "/guide/web/css/01.md" },
+          { text: "j-a-v-a-s-c-r-i-p-t", link: "/guide/web/js/01.md" },
           { text: "w-e-b-p-a-c-k", link: "/guide/web/webpack/01.md" },
         ],
       },
@@ -130,6 +131,5 @@ export const getChineseThemeConfig = () => {
         },
       ],
     },
-    // ... ...
   };
 };

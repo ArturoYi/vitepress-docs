@@ -1,14 +1,7 @@
 export const coloricon = () => {
-  // let url = "";
   setInterval(() => {
-    // (function (window: any) {
     if (typeof (window as any) !== "undefined") {
-      // if (
-      //   window &&
-      //   window.location &&
-      //   window.location.href &&
-      //   url != window.location.href
-      // ) {
+
       setTimeout(() => {
         const items = document.getElementsByClassName("items");
         if (items) {
@@ -60,16 +53,16 @@ export const coloricon = () => {
                   j
                 ].innerHTML = `<div style="display:flex;"><img style="margin-right:8px;" src="/icon/linux.svg" alt="null" p-id="1416">linux<div>`;
               }
+              if (as[j].innerHTML.indexOf("j-a-v-a-s-c-r-i-p-t") !== -1) {
+                as[
+                  j
+                ].innerHTML = `<div style="display:flex;"><img style="margin-right:8px;" src="/icon/Javascript.svg" alt="null" p-id="1416">JS<div>`;
+              }
             }
           }
         }
       }, 0);
-      // url = window.location.href;
-      // }
     }
-    /* Keep source code the same */
-    // })(typeof window == "undefined" ? global : window);
-    // or
-    // })(this);
+
   }, 500);
 };
