@@ -83,8 +83,11 @@ export const getChineseThemeConfig = () => {
       //
       "/guide/web/dart": [
         {
-          text: "🟦 Datr基础",
-          items: [{ text: "🟦 Dart基本语法", link: "/guide/web/dart/01.md" }],
+          text: "🟦 Datr概览",
+          items: [
+            { text: "🟦 关于Dart", link: "/guide/web/dart/01.md" },
+            { text: "🟦 Dart代码风格", link: "/guide/web/dart/02.md" },
+            { text: "🟦 Dart基本语法", link: "/guide/web/dart/03.md" }],
           // collapsible: true,
         },
       ],
