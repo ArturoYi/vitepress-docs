@@ -18,7 +18,7 @@ export const getChineseThemeConfig = () => {
       },
       {
         text: "🖥️后端",
-        items: [{ text: "組件庫", link: "/guide/project/iuui/01.md" }],
+        items: [{ text: "組件庫", link: "/guide/project/iuui/01.md" }, { text: "l-i-n-u-x", link: "/guide/note/linux/01.md" },],
       },
       // {
       //   text: "🖥️后端",
@@ -34,19 +34,18 @@ export const getChineseThemeConfig = () => {
       //     // { text: "options-2", link: "http://www.baidu.com" },
       //   ],
       // },
-      // {
-      //   text: "🧑‍💻运维",
-      //   items: [
-      //     // { text: "options-1", link: "/" },
-      //     // { text: "options-2", link: "http://www.baidu.com" },
-      //   ],
-      // },
       {
         text: "📒笔记",
         items: [
           { text: "g-i-t", link: "/guide/note/git/01.md" },
-          { text: "l-i-n-u-x", link: "/guide/note/linux/01.md" },
           { text: "🟦 iuui", link: "/guide/note/iuui/01.md" },
+        ],
+      },
+      {
+        text: "🧑日常",
+        items: [
+          { text: "▶️ 故事", link: "/guide/life/story/01.md" },
+          // { text: "options-2", link: "http://www.baidu.com" },
         ],
       },
     ],
@@ -91,6 +90,17 @@ export const getChineseThemeConfig = () => {
           // collapsible: true,
         },
       ],
+      "/guide/web/js": [
+        {
+          text: "🟨 JS指南",
+          items: [
+            { text: "🟨 关于JS", link: "/guide/web/js/01.md" },
+            { text: '🟨 基本语法和数据类型介绍', link: '/guide/web/js/02.md' },
+            { text: '🟨 流程控制与错误处理', link: '/guide/web/js/03.md' }
+          ],
+          // collapsible: true,
+        },
+      ],
       "/guide/web/flutter": [
         {
           text: "🟦 Flutter起步",
@@ -130,6 +140,14 @@ export const getChineseThemeConfig = () => {
           items: [
             { text: "🟦 思考", link: "/guide/note/iuui/01.md" },
             { text: "🟦 package.json", link: "/guide/note/iuui/02.md" },
+          ],
+        },
+      ],
+      "/guide/life/story": [
+        {
+          text: "🎵 歌曲傳記",
+          items: [
+            { text: "🎵 《陀飛輪》", link: "/guide/life/story/01.md" },
           ],
         },
       ],
