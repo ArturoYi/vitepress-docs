@@ -96,7 +96,8 @@ export const getChineseThemeConfig = () => {
           items: [
             { text: "🟨 关于JS", link: "/guide/web/js/01.md" },
             { text: '🟨 基本语法和数据类型介绍', link: '/guide/web/js/02.md' },
-            { text: '🟨 流程控制与错误处理', link: '/guide/web/js/03.md' }
+            { text: '🟨 流程控制与循环迭代', link: '/guide/web/js/03.md' },
+            { text: '🟨 表达式和运算符', link: '/guide/web/js/04.md' }
           ],
           // collapsible: true,
         },
@@ -148,6 +149,12 @@ export const getChineseThemeConfig = () => {
           text: "🎵 歌曲傳記",
           items: [
             { text: "🎵 《陀飛輪》", link: "/guide/life/story/01.md" },
+          ],
+        },
+        {
+          text: "📓 故事集",
+          items: [
+            { text: "📓 《故事会》", link: "/guide/life/story/02.md" },
           ],
         },
       ],
