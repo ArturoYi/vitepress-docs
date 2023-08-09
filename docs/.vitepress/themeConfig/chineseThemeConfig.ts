@@ -71,12 +71,13 @@ export const getChineseThemeConfig = () => {
       ],
       "/guide/web/vue": [
         {
-          text: "🟩 Vue2",
-          items: [{ text: "🟩 Vue2開篇介绍", link: "/guide/web/vue/01.md" }],
+          text: "🟩 Vue3 介绍",
+          items: [{ text: "🟩 Vue3", link: "/guide/web/vue/01.md" }],
         },
         {
-          text: "🟩 Vue2 源碼",
-          items: [{ text: "🟩 Vue構造函數", link: "/guide/web/vue/02.md" }],
+          text: "🟩 Vue3 全局API",
+          items: [{ text: "🟩 应用实例", link: "/guide/web/vue/02.md" },
+          { text: "🟩 通用", link: "/guide/web/vue/03.md" },],
         },
       ],
       //

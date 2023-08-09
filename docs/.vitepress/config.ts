@@ -33,12 +33,12 @@ export default {
       link: "/",
       themeConfig: getChineseThemeConfig(),
     },
-    en: {
-      label: "English",
-      lang: "en",
-      link: "/en/",
-      themeConfig: getEnglishThemeConfig(),
-    },
+    // en: {
+    //   label: "English",
+    //   lang: "en",
+    //   link: "/en/",
+    //   themeConfig: getEnglishThemeConfig(),
+    // },
   },
   markdown: {
     lineNumbers: true,

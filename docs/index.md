@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: www
-  text: 💻VitePress趣玩系列
+  text: 💻VitePress趣系列
   tagline: Lorem ipsum...
   image:
     src: /logo-with-shadow.png
