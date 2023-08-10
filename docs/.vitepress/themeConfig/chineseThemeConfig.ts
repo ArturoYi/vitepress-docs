@@ -98,7 +98,8 @@ export const getChineseThemeConfig = () => {
             { text: "🟨 关于JS", link: "/guide/web/js/01.md" },
             { text: '🟨 基本语法和数据类型介绍', link: '/guide/web/js/02.md' },
             { text: '🟨 流程控制与循环迭代', link: '/guide/web/js/03.md' },
-            { text: '🟨 函數', link: '/guide/web/js/04.md' }
+            { text: '🟨 函數', link: '/guide/web/js/04.md' },
+            { text: '🟨 表达式与运算符', link: '/guide/web/js/05.md' },
           ],
           // collapsible: true,
         },
