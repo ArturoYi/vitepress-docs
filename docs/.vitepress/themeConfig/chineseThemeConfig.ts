@@ -18,7 +18,10 @@ export const getChineseThemeConfig = () => {
       },
       {
         text: "🖥️后端",
-        items: [{ text: "組件庫", link: "/guide/project/iuui/01.md" }, { text: "l-i-n-u-x", link: "/guide/note/linux/01.md" },],
+        items: [
+          { text: "組件庫", link: "/guide/project/iuui/01.md" },
+          { text: "l-i-n-u-x", link: "/guide/note/linux/01.md" },
+        ],
       },
       // {
       //   text: "🖥️后端",
@@ -76,8 +79,10 @@ export const getChineseThemeConfig = () => {
         },
         {
           text: "🟩 Vue3 全局API",
-          items: [{ text: "🟩 应用实例", link: "/guide/web/vue/02.md" },
-          { text: "🟩 通用", link: "/guide/web/vue/03.md" },],
+          items: [
+            { text: "🟩 应用实例", link: "/guide/web/vue/02.md" },
+            { text: "🟩 通用", link: "/guide/web/vue/03.md" },
+          ],
         },
       ],
       //
@@ -87,7 +92,8 @@ export const getChineseThemeConfig = () => {
           items: [
             { text: "🟦 关于Dart", link: "/guide/web/dart/01.md" },
             { text: "🟦 Dart代码风格", link: "/guide/web/dart/02.md" },
-            { text: "🟦 Dart基本语法", link: "/guide/web/dart/03.md" }],
+            { text: "🟦 Dart基本语法", link: "/guide/web/dart/03.md" },
+          ],
           // collapsible: true,
         },
       ],
@@ -96,10 +102,11 @@ export const getChineseThemeConfig = () => {
           text: "🟨 JS指南",
           items: [
             { text: "🟨 关于JS", link: "/guide/web/js/01.md" },
-            { text: '🟨 基本语法和数据类型介绍', link: '/guide/web/js/02.md' },
-            { text: '🟨 流程控制与循环迭代', link: '/guide/web/js/03.md' },
-            { text: '🟨 函數', link: '/guide/web/js/04.md' },
-            { text: '🟨 表达式与运算符', link: '/guide/web/js/05.md' },
+            { text: "🟨 基本语法和数据类型介绍", link: "/guide/web/js/02.md" },
+            { text: "🟨 流程控制与循环迭代", link: "/guide/web/js/03.md" },
+            { text: "🟨 表达式与运算符", link: "/guide/web/js/05.md" },
+            { text: "🟨 函數对象", link: "/guide/web/js/04.md" },
+            { text: "🟨 数字对象", link: "/guide/web/js/06.md" },
           ],
           // collapsible: true,
         },
@@ -149,15 +156,11 @@ export const getChineseThemeConfig = () => {
       "/guide/life/story": [
         {
           text: "🎵 歌曲傳記",
-          items: [
-            { text: "🎵 《陀飛輪》", link: "/guide/life/story/01.md" },
-          ],
+          items: [{ text: "🎵 《陀飛輪》", link: "/guide/life/story/01.md" }],
         },
         {
           text: "📓 故事集",
-          items: [
-            { text: "📓 《故事会》", link: "/guide/life/story/02.md" },
-          ],
+          items: [{ text: "📓 《故事会》", link: "/guide/life/story/02.md" }],
         },
       ],
     },
