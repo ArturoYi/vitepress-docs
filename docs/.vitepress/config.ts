@@ -1,6 +1,10 @@
 import { defineConfig } from "vitepress";
 import { getEnglishThemeConfig } from "./themeConfig/englishThemeConfig";
 import { getChineseThemeConfig } from "./themeConfig/chineseThemeConfig";
+//plugin
+import { customElements, customElementsmathjax3 } from "./plugins/index";
+import markdownItKatex from "markdown-it-katex";
+import mathjax3 from "markdown-it-mathjax3";
 /**
  * 注意：默认导出必须是 defineConfig 的类型对象
  * 这里不采用是因为需要额外配置一套多语言的配置
@@ -9,7 +13,16 @@ import { getChineseThemeConfig } from "./themeConfig/chineseThemeConfig";
 export default {
   title: "VitePress-Fun",
   lastUpdated: true,
-  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
+  head: [
+    ["link", { rel: "icon", href: "/favicon.ico" }],
+    [
+      "link",
+      {
+        rel: "stylesheet",
+        href: "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css",
+      },
+    ],
+  ],
   themeConfig: {
     // 左上角
     logo: "/logo-with-shadow.png",
@@ -42,5 +55,17 @@ export default {
   },
   markdown: {
     lineNumbers: true,
+    config: (md: any) => {
+      md.use(markdownItKatex);
+      md.use(mathjax3);
+    },
+  },
+  vue: {
+    template: {
+      compilerOptions: {
+        isCustomElement: (tag) =>
+          [...customElementsmathjax3, ...customElements].includes(tag),
+      },
+    },
   },
 };
