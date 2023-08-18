@@ -58,6 +58,11 @@ export const coloricon = () => {
                   j
                 ].innerHTML = `<div style="display:flex;"><img style="margin-right:8px;" src="/icon/Javascript.svg" alt="null" p-id="1416">JS<div>`;
               }
+              if (as[j].innerHTML.indexOf("k-o-t-l-i-n") !== -1) {
+                as[
+                  j
+                ].innerHTML = `<div style="display:flex;"><img style="margin-right:8px;" src="/icon/kotlin.svg" alt="null" p-id="1416">Kotlin<div>`;
+              }
             }
           }
         }

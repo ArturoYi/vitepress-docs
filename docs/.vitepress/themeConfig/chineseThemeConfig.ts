@@ -4,7 +4,7 @@ export const getChineseThemeConfig = () => {
     lastUpdatedText: "最近更新时间",
     nav: [
       {
-        text: "💻前端",
+        text: "💻前",
         items: [
           { text: "v-u-e", link: "/guide/web/vue/01.md" },
           { text: "t-s", link: "/guide/web/ts/01.md" },
@@ -17,10 +17,10 @@ export const getChineseThemeConfig = () => {
         ],
       },
       {
-        text: "🖥️后端",
+        text: "🖥️后",
         items: [
-          { text: "組件庫", link: "/guide/project/iuui/01.md" },
-          { text: "l-i-n-u-x", link: "/guide/note/linux/01.md" },
+          { text: "l-i-n-u-x", link: "/guide/backend/linux/01.md" },
+          { text: "k-o-t-l-i-n", link: "/guide/backend/kotlin/01.md" },
         ],
       },
       // {
@@ -40,14 +40,13 @@ export const getChineseThemeConfig = () => {
       {
         text: "📒笔记",
         items: [
-          { text: "g-i-t", link: "/guide/note/git/01.md" },
-          { text: "🟦 iuui", link: "/guide/note/iuui/01.md" },
+          { text: "g-i-t", link: "/guide/backend/git/01.md" },
         ],
       },
       {
         text: "🧑日常",
         items: [
-          { text: "▶️ 故事", link: "/guide/life/story/01.md" },
+          { text: "📒 故事", link: "/guide/life/story/01.md" },
           // { text: "options-2", link: "http://www.baidu.com" },
         ],
       },
