@@ -77,7 +77,7 @@ export const getChineseThemeConfig = () => {
           text: "🟩 Vue3 介绍",
           items: [
             { text: "🟩 Vue3", link: "/guide/web/vue/01.md" },
-            { text: "🟩 diff使用", link: "/guide/web/vue/diff.md" },
+            { text: "🟩 关于diff", link: "/guide/web/vue/diff.md" },
           ],
         },
         {
