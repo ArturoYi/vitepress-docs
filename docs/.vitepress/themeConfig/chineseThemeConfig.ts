@@ -39,9 +39,7 @@ export const getChineseThemeConfig = () => {
       // },
       {
         text: "📒笔记",
-        items: [
-          { text: "g-i-t", link: "/guide/backend/git/01.md" },
-        ],
+        items: [{ text: "g-i-t", link: "/guide/backend/git/01.md" }],
       },
       {
         text: "🧑日常",
@@ -164,6 +162,19 @@ export const getChineseThemeConfig = () => {
         {
           text: "📓 故事集",
           items: [{ text: "📓 《故事会》", link: "/guide/life/story/02.md" }],
+        },
+      ],
+      "/guide/backend/kotlin": [
+        {
+          text: "🟪 kotlin概述",
+          items: [
+            { text: "🟪 kotlin基本", link: "/guide/backend/kotlin/01.md" },
+            { text: "🟪 基本语法", link: "/guide/backend/kotlin/02.md" },
+          ],
+        },
+        {
+          text: "🟪 kotlin数据类型",
+          items: [{ text: "🟪 数值", link: "/guide/backend/kotlin/03.md" }],
         },
       ],
     },
