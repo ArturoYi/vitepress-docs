@@ -93,7 +93,7 @@ export const getChineseThemeConfig = () => {
           items: [
             { text: "🟦 关于Dart", link: "/guide/web/dart/01.md" },
             { text: "🟦 Dart代码风格", link: "/guide/web/dart/02.md" },
-            { text: "🟦 Dart基本语法", link: "/guide/web/dart/03.md" },
+            { text: "🟦 基础语法", link: "/guide/web/dart/03.md" },
           ],
           // collapsible: true,
         },
@@ -173,8 +173,12 @@ export const getChineseThemeConfig = () => {
           ],
         },
         {
-          text: "🟪 kotlin数据类型",
-          items: [{ text: "🟪 数值", link: "/guide/backend/kotlin/03.md" }],
+          text: "🟪 kotlin语法",
+          items: [
+            { text: "🟪 基本类型", link: "/guide/backend/kotlin/03.md" },
+            { text: "🟪 控制流程", link: "/guide/backend/kotlin/04.md" },
+            { text: "🟪 函数", link: "/guide/backend/kotlin/05.md" },
+          ],
         },
       ],
     },
