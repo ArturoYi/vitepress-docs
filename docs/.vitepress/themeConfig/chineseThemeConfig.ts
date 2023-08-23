@@ -45,7 +45,7 @@ export const getChineseThemeConfig = () => {
         text: "🧑日常",
         items: [
           { text: "📒 故事", link: "/guide/life/story/01.md" },
-          // { text: "options-2", link: "http://www.baidu.com" },
+          { text: "📒 面試", link: "/guide/note/interview/vue/01.md" },
         ],
       },
     ],
@@ -178,6 +178,32 @@ export const getChineseThemeConfig = () => {
             { text: "🟪 基本类型", link: "/guide/backend/kotlin/03.md" },
             { text: "🟪 控制流程", link: "/guide/backend/kotlin/04.md" },
             { text: "🟪 函数", link: "/guide/backend/kotlin/05.md" },
+          ],
+        },
+      ],
+
+      // 混合配置
+      "/guide/note/interview/vue/": [
+        {
+          text: "🟩 Vue面試",
+          items: [{ text: "🟩 Vue", link: "/guide/note/interview/vue/01.md" }],
+        },
+        {
+          text: "🟦 Dart面試",
+          items: [
+            { text: "🟦 Dart", link: "/guide/note/interview/dart/01.md" },
+          ],
+        },
+      ],
+      "/guide/note/interview/dart/": [
+        {
+          text: "🟩 Vue面試",
+          items: [{ text: "🟩 Vue", link: "/guide/note/interview/vue/01.md" }],
+        },
+        {
+          text: "🟦 Dart面試",
+          items: [
+            { text: "🟦 Dart", link: "/guide/note/interview/dart/01.md" },
           ],
         },
       ],
