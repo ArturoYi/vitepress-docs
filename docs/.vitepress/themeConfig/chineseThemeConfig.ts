@@ -39,7 +39,13 @@ export const getChineseThemeConfig = () => {
       // },
       {
         text: "📒笔记",
-        items: [{ text: "g-i-t", link: "/guide/backend/git/01.md" }],
+        items: [
+          { text: "g-i-t", link: "/guide/backend/git/01.md" },
+          {
+            text: "🤔FlutterApp工程化",
+            link: "/guide/project/flutter/app/01.md",
+          },
+        ],
       },
       {
         text: "🧑日常",
@@ -178,6 +184,15 @@ export const getChineseThemeConfig = () => {
             { text: "🟪 基本类型", link: "/guide/backend/kotlin/03.md" },
             { text: "🟪 控制流程", link: "/guide/backend/kotlin/04.md" },
             { text: "🟪 函数", link: "/guide/backend/kotlin/05.md" },
+          ],
+        },
+      ],
+
+      "/guide/project/flutter": [
+        {
+          text: "🟦 FlutterApp",
+          items: [
+            { text: "🟦 项目创建", link: "/guide/project/flutter/app/01.md" },
           ],
         },
       ],
