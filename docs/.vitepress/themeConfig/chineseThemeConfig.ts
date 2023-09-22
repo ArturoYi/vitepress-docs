@@ -193,6 +193,13 @@ export const getChineseThemeConfig = () => {
           text: "🟦 FlutterApp",
           items: [
             { text: "🟦 项目创建", link: "/guide/project/flutter/app/01.md" },
+            
+          ],
+        },
+        {
+          text: "🟦 Widget",
+          items: [
+            { text: "🟦 上拉刷新和下拉加载", link: "/guide/project/flutter/widget/01.md" },
           ],
         },
       ],
