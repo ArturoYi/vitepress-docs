@@ -38,3 +38,11 @@ ios默认会阻止http请求,	下可以让app允许http请求，但是官方是�
 <key>NSLocationWhenInUseUsageDescription</key>
 <string>使用时定位</string>
 ```
+
+## ios更改app名称和包名
+
+## ios最低部署目标为11的报错问题
+
+## 监听用户的截屏和录屏行为
+
+参考package，监听API
