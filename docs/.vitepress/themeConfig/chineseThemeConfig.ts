@@ -45,6 +45,10 @@ export const getChineseThemeConfig = () => {
             text: "🤔FlutterApp工程化",
             link: "/guide/project/flutter/app/01.md",
           },
+          {
+            text: "🟦 Flutter 开发记录",
+            link: "/guide/other/flutter_app.md",
+          },
         ],
       },
       {
@@ -89,6 +93,16 @@ export const getChineseThemeConfig = () => {
             { text: "🟩 应用实例", link: "/guide/web/vue/02.md" },
             { text: "🟩 通用", link: "/guide/web/vue/03.md" },
             { text: "🟩 響應核心", link: "/guide/web/vue/04.md" },
+          ],
+        },
+      ],
+      //
+      "/guide/other/": [
+        {
+          text: "🟦 Flutter开发问题记录",
+          items: [
+            { text: "🟦 Flutter ios问题记录", link: "/guide/other/flutter_app.md" },
+            { text: "🟦 Flutter Canvas学习", link: "/guide/other/flutter_canvas.md" },
           ],
         },
       ],
