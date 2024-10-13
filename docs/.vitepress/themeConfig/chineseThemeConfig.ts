@@ -54,7 +54,7 @@ export const getChineseThemeConfig = () => {
       {
         text: "🧑日常",
         items: [
-          { text: "📒 故事", link: "/guide/life/story/01.md" },
+          { text: "📒 日常记录", link: "/guide/life/story/01.md" },
           { text: "📒 面試", link: "/guide/note/interview/vue/01.md" },
         ],
       },
@@ -101,8 +101,14 @@ export const getChineseThemeConfig = () => {
         {
           text: "🟦 Flutter开发问题记录",
           items: [
-            { text: "🟦 Flutter ios问题记录", link: "/guide/other/flutter_app.md" },
-            { text: "🟦 Flutter Canvas学习", link: "/guide/other/flutter_canvas.md" },
+            {
+              text: "🟦 Flutter ios问题记录",
+              link: "/guide/other/flutter_app.md",
+            },
+            {
+              text: "🟦 Flutter Canvas学习",
+              link: "/guide/other/flutter_canvas.md",
+            },
           ],
         },
       ],
@@ -183,6 +189,10 @@ export const getChineseThemeConfig = () => {
           text: "📓 故事集",
           items: [{ text: "📓 《故事会》", link: "/guide/life/story/02.md" }],
         },
+        {
+          text: "📓 我的工作记录",
+          items: [{ text: "📓 工作历程", link: "/guide/life/story/03.md" }],
+        },
       ],
       "/guide/backend/kotlin": [
         {
@@ -207,13 +217,15 @@ export const getChineseThemeConfig = () => {
           text: "🟦 FlutterApp",
           items: [
             { text: "🟦 项目创建", link: "/guide/project/flutter/app/01.md" },
-            
           ],
         },
         {
           text: "🟦 Widget",
           items: [
-            { text: "🟦 上拉刷新和下拉加载", link: "/guide/project/flutter/widget/01.md" },
+            {
+              text: "🟦 上拉刷新和下拉加载",
+              link: "/guide/project/flutter/widget/01.md",
+            },
           ],
         },
       ],

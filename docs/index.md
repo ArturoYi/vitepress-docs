@@ -2,28 +2,28 @@
 layout: home
 
 hero:
-  name: 阿柒😈
-  text: 💻VitePress趣系列
-  tagline: 🤔️...
+  name: 阿柒
+  text: 每一迹
+  tagline: 记录不是害怕忘记，而是为了放心去忘记
   image:
     src: /logo-with-shadow.png
     alt: VitePress
   actions:
-    - theme: brand
-      text: Get Started
-      link: /guide/what-is-vitepress
+    # - theme: brand
+    #   text: Get Started
+    #   link: /guide/what-is-vitepress
     - theme: alt
-      text: View on GitHub
+      text: View VitePress on GitHub
       link: https://github.com/vuejs/vitepress
 
 features:
   - icon: ⚡️
-    title: 不管做啥，要快...
+    title: 学习...
     details: 🤔️...
   - icon: 🖖
-    title: 不管做啥，要开心...
+    title: 生活...
     details: 🤔️...
   - icon: 🛠️
-    title: 不管做啥，要找工具...
+    title: 工作...
     details: 🤔️...
 ---
