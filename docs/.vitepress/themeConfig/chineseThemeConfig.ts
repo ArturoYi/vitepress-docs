@@ -41,14 +41,14 @@ export const getChineseThemeConfig = () => {
         text: "📒笔记",
         items: [
           { text: "g-i-t", link: "/guide/backend/git/01.md" },
-          {
-            text: "🤔FlutterApp工程化",
-            link: "/guide/project/flutter/app/01.md",
-          },
-          {
-            text: "🟦 Flutter 开发记录",
-            link: "/guide/other/flutter_app.md",
-          },
+          // {
+          //   text: "🤔FlutterApp工程化",
+          //   link: "/guide/project/flutter/app/01.md",
+          // },
+          // {
+          //   text: "🟦 Flutter 开发记录",
+          //   link: "/guide/other/flutter_app.md",
+          // },
         ],
       },
       {
@@ -97,21 +97,21 @@ export const getChineseThemeConfig = () => {
         },
       ],
       //
-      "/guide/other/": [
-        {
-          text: "🟦 Flutter开发问题记录",
-          items: [
-            {
-              text: "🟦 Flutter ios问题记录",
-              link: "/guide/other/flutter_app.md",
-            },
-            {
-              text: "🟦 Flutter Canvas学习",
-              link: "/guide/other/flutter_canvas.md",
-            },
-          ],
-        },
-      ],
+      // "/guide/other/": [
+      //   {
+      //     text: "🟦 Flutter开发问题记录",
+      //     items: [
+      //       {
+      //         text: "🟦 Flutter ios问题记录",
+      //         link: "/guide/other/flutter_app.md",
+      //       },
+      //       {
+      //         text: "🟦 Flutter Canvas学习",
+      //         link: "/guide/other/flutter_canvas.md",
+      //       },
+      //     ],
+      //   },
+      // ],
       //
       "/guide/web/dart": [
         {
