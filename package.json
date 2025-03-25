@@ -14,15 +14,11 @@
   "devDependencies": {
     "markdown-it-katex": "^2.0.3",
     "markdown-it-mathjax3": "^4.3.2",
-    "vitepress": "v1.0.0-beta.5",
-    "vue": "^3.3.4"
+    "vitepress": "^1.6.3",
+    "vue": "^3.5.13"
   },
   "pnpm": {
-    "peerDependencyRules": {
-      "ignoreMissung": [
-        "@algolia/client-search"
-      ]
-    }
+    "peerDependencyRules": {}
   },
   "dependencies": {
     "buffer": "^6.0.3"

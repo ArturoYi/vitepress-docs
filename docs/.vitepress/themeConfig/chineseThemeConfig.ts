@@ -23,20 +23,6 @@ export const getChineseThemeConfig = () => {
           { text: "k-o-t-l-i-n", link: "/guide/backend/kotlin/01.md" },
         ],
       },
-      // {
-      //   text: "🖥️后端",
-      //   items: [
-      //     // { text: "options-1", link: "/" },
-      //     // { text: "options-2", link: "http://www.baidu.com" },
-      //   ],
-      // },
-      // {
-      //   text: "💿数据库",
-      //   items: [
-      //     // { text: "options-1", link: "/" },
-      //     // { text: "options-2", link: "http://www.baidu.com" },
-      //   ],
-      // },
       {
         text: "📒笔记",
         items: [
@@ -47,8 +33,14 @@ export const getChineseThemeConfig = () => {
           },
           {
             text: "🟦 Flutter 开发记录",
-            link: "/guide/other/flutter_app.md",
+            link: "/guide/app/flutter_app.md",
           },
+        ],
+      },
+      {
+        text: "🦋 技能",
+        items: [
+          { text: "🦋 PhotoShop", link: "/guide/other/ps/01.md" },
         ],
       },
       {
@@ -97,12 +89,12 @@ export const getChineseThemeConfig = () => {
         },
       ],
       //
-      "/guide/other/": [
+      "/guide/app/": [
         {
           text: "🟦 Flutter开发问题记录",
           items: [
-            { text: "🟦 Flutter ios问题记录", link: "/guide/other/flutter_app.md" },
-            { text: "🟦 Flutter Canvas学习", link: "/guide/other/flutter_canvas.md" },
+            { text: "🟦 Flutter ios问题记录", link: "/guide/app/flutter_app.md" },
+            { text: "🟦 Flutter Canvas学习", link: "/guide/app/flutter_canvas.md" },
           ],
         },
       ],
@@ -207,7 +199,7 @@ export const getChineseThemeConfig = () => {
           text: "🟦 FlutterApp",
           items: [
             { text: "🟦 项目创建", link: "/guide/project/flutter/app/01.md" },
-            
+
           ],
         },
         {
@@ -241,6 +233,12 @@ export const getChineseThemeConfig = () => {
           items: [
             { text: "🟦 Dart", link: "/guide/note/interview/dart/01.md" },
           ],
+        },
+      ],
+      "/guide/other/ps/": [
+        {
+          text: "🦋 PS基础",
+          items: [{ text: "🦋 认识PS", link: "/guide/other/ps/01.md" }],
         },
       ],
     },

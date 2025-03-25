@@ -1,3 +1,11 @@
 {
-  "svg.preview.background": "editor"
+  "svg.preview.background": "editor",
+  "[markdown]": {
+    // 快速补全
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true
+    },
+  }
 }
