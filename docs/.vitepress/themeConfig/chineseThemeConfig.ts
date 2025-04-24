@@ -14,6 +14,7 @@ export const getChineseThemeConfig = () => {
           { text: "c-s-s", link: "/guide/web/css/01.md" },
           { text: "j-a-v-a-s-c-r-i-p-t", link: "/guide/web/js/01.md" },
           { text: "w-e-b-p-a-c-k", link: "/guide/web/webpack/01.md" },
+          { text: "s-w-i-f-t", link: "/guide/web/swift/01.md" },
         ],
       },
       {
@@ -155,6 +156,12 @@ export const getChineseThemeConfig = () => {
         {
           text: "🟦 webpack",
           items: [{ text: "🟦 快速入門", link: "/guide/web/webpack/01.md" }],
+        },
+      ],
+      "/guide/web/swift": [
+        {
+          text: "🟥 swift入门",
+          items: [{ text: "🟥 前期准备", link: "/guide/web/swift/01.md" }],
         },
       ],
       "/guide/note/iuui": [
