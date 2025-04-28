@@ -1,29 +1,50 @@
 {
-  "hash": "8313873b",
-  "configHash": "467fbe7c",
-  "lockfileHash": "e3b0c442",
-  "browserHash": "9ff06dda",
+  "hash": "0776701c",
+  "configHash": "1fee9d7c",
+  "lockfileHash": "f39561ef",
+  "browserHash": "ab8c396b",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/.pnpm/vue@3.5.13/node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "8151d99d",
+      "fileHash": "7b64734a",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/.pnpm/@vue+devtools-api@7.7.2/node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "125072b0",
+      "fileHash": "9a6d1b86",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
-      "src": "../../../../node_modules/.pnpm/@vueuse+core@12.7.0/node_modules/@vueuse/core/index.mjs",
+      "src": "../../../../node_modules/.pnpm/@vueuse+core@12.8.2/node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "ad4abf73",
+      "fileHash": "30508b31",
+      "needsInterop": false
+    },
+    "vitepress > @vueuse/integrations/useFocusTrap": {
+      "src": "../../../../node_modules/.pnpm/@vueuse+integrations@12.8.2_focus-trap@7.6.4/node_modules/@vueuse/integrations/useFocusTrap.mjs",
+      "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
+      "fileHash": "adb6d935",
+      "needsInterop": false
+    },
+    "vitepress > mark.js/src/vanilla.js": {
+      "src": "../../../../node_modules/.pnpm/mark.js@8.11.1/node_modules/mark.js/src/vanilla.js",
+      "file": "vitepress___mark__js_src_vanilla__js.js",
+      "fileHash": "8155647c",
+      "needsInterop": false
+    },
+    "vitepress > minisearch": {
+      "src": "../../../../node_modules/.pnpm/minisearch@7.1.2/node_modules/minisearch/dist/es/index.js",
+      "file": "vitepress___minisearch.js",
+      "fileHash": "7b6b1b09",
       "needsInterop": false
     }
   },
   "chunks": {
+    "chunk-6ODFCPKZ": {
+      "file": "chunk-6ODFCPKZ.js"
+    },
     "chunk-JN5NFW2R": {
       "file": "chunk-JN5NFW2R.js"
     }

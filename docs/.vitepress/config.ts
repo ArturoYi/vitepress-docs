@@ -29,6 +29,9 @@ export default {
     siteTitle: "『 彩虹鸭 』",
     outlineTitle: "⚫🔴🟠🟡🟢🔵🟣🟤⚪",
     outline: [2, 6],
+    search: {
+      provider: 'local'
+    },
     // 社交链接
     socialLinks: [
       { icon: "github", link: "https://github.com/540765/vitepress-docs" },
